@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <div className="app">
       <nav className={`navbar content ${isScrolled ? "scrolled" : ""}`}>
-        <div className="logo">🔥 <b>EvaluAIte</b></div>
+        <div className="logo">🔥 <b>Evaluate</b></div>
 
         <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           &#9776;
